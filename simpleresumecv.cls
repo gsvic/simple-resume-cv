@@ -139,23 +139,23 @@ includefoot]{geometry}
 % The "Tinos" fonts are released under the Apache License Version 2.0,
 % and can be downloaded for free at <http://www.fontsquirrel.com/fonts/tinos>.
 % Symbol table: <http://www.fileformat.info/info/unicode/font/tinos/grid.htm>
-\setmainfont
-[Path=./Fonts/Tinos/,
-ItalicFont=Tinos-Italic,
-BoldFont=Tinos-Bold,
-BoldItalicFont=Tinos-BoldItalic]
-{Tinos-Regular.ttf}
+\setmainfont{Times New Roman}
+%[Path=./Fonts/Tinos/,
+%ItalicFont=Tinos-Italic,
+%BoldFont=Tinos-Bold,
+%BoldItalicFont=Tinos-BoldItalic]
+%{Tinos-Regular.ttf}
 
 % Secondary font: "GNU FreeFont".
 % The "GNU FreeFont" fonts are released under the
 % GNU General Public License Version 3, and can be downloaded
 % for free at <https://savannah.gnu.org/projects/freefont/>.
-\newcommand{\UseSecondaryFont}{\fontspec
-[Path=./Fonts/GNUFreeFont/,
-ItalicFont=FreeSerifItalic,
-BoldFont=FreeSerifBold,
-BoldItalicFont=FreeSerifBoldItalic]
-{FreeSerif.otf}}
+%\newcommand{\UseSecondaryFont}{\fontspec
+%[Path=./Fonts/GNUFreeFont/,
+%ItalicFont=FreeSerifItalic,
+%BoldFont=FreeSerifBold,
+%BoldItalicFont=FreeSerifBoldItalic]
+%{FreeSerif.otf}}
 
 % Sans-serif font: Changed to "Tinos".
 \renewcommand{\sffamily}{\rmfamily}
@@ -171,7 +171,7 @@ BoldItalicFont=FreeSerifBoldItalic]
 \newcommand{\UseHeadingFont}{\normalfont}
 \newcommand{\UseHeaderFooterFont}{\UseHeadingFont\fontsize{8.2pt}{9.5pt}\selectfont}
 \newcommand{\UseNoteFont}{\UseHeadingFont\fontsize{8pt}{9.6pt}\selectfont}
-\newcommand{\UseTitleFont}{\UseHeadingFont\fontsize{28pt}{33.6pt}\selectfont\bfseries}
+\newcommand{\UseTitleFont}{\UseHeadingFont\fontsize{20pt}{33.6pt}\selectfont\bfseries}
 \newcommand{\UseSubTitleFont}{\normalfont\fontsize{8.6pt}{10.3pt}\selectfont}
 \newcommand{\UseSectionFont}{\UseHeadingFont\fontsize{9pt}{11pt}\selectfont\bfseries}
 \newcommand{\UseSubSectionFont}{\UseHeadingFont\fontsize{8.6pt}{10.3pt}\selectfont\bfseries}
